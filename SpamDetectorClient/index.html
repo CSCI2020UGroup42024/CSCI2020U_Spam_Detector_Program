@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="css/main.css"> -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+
+<body>
+<!-- Add your site or application content here -->
+<header class="top-bar">
+  <h1>Spam Detector Dashboard</h1>
+</header>
+
+<nav class="navigation">
+  <nav class="navigation">
+    <a href="index.html"><button id="button1" class="active">Dashboard</button></a>
+    <a href="about.html"><button id="button2">About</button></a>
+  </nav>
+</nav>
+
+<div class="container">
+  <!-- Left Panel -->
+  <div class="left-panel">
+    <h2>Spam Analysis Dashboard</h2>
+    <p>The table below displays the results of our spam algorithm.</p>
+    <div class="table-wrapper">
+      <table id="data-table">
+        <thead>
+        <tr>
+          <th>File</th>
+          <th>Probability (%)</th>
+          <th>Class</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Added Content Will Appear Here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- Right Panel -->
+  <div class="right-panel">
+    <h2>Model Performance</h2>
+    <h3>Accuracy:</h3>
+    <div class="outlined-box" id="div-accuracy">0.000000000000000</div>
+    <h3>Precision:</h3>
+    <div class="outlined-box" id="div-precision">0.000000000000000</div>
+  </div>
+</div>
+
+<footer class="copyright">
+  <p>Copyright &copy; CSCI 2020U - Winter 2024</p>
+</footer>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+body,
+html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.top-bar {
+    height: 70px;
+    background-color: #003b72;
+    padding: 1px;
+    text-align: center;
+    color: #ff6a38;
+}
+
+.navigation {
+    height: 70px;
+    padding: 1px;
+    text-align: center;
+    background-color: #003b72;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+
+    background-color: hsl(15, 50%, 50%);
+    color: #ffffff;
+}
+
+button.active {
+    color: #ffffff;
+    background-color: hsl(15, 100%, 61%);
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 180px);
+    margin: 20px;
+}
+
+.container2 {
+    display: flex;
+    height: calc(35vh);
+    margin: 10px;
+}
+
+.container3 {
+    display: flex;
+    height: calc(15vh);
+    margin: 10px;
+}
+
+.left-panel,
+.right-panel,
+.about-panel {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #003b72;
+    box-sizing: border-box;
+}
+
+.left-panel {
+    margin-right: 20px;
+    flex: 3;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.right-panel {
+    margin-right: 0;
+    flex: 1;
+    color: #ffffff;
+}
+
+.about-panel {
+    font-size: xx-large;
+    margin: 10px;
+    color: #ffffff;
+    flex: 1;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-panel-2 {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ff6a38;
+    box-sizing: border-box;
+    margin: 10px;
+    color: #ffffff;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outlined-box {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.table-wrapper {
+    height: calc(85% + 20px);
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th {
+    background-color: #f0f0f0;
+    color: #000;
+    padding: 10px;
+}
+
+#data-table td {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+a:visited {
+  color: white;
+}
+
+footer {
+  background-color: #003b72;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  margin-top: 20px;
+}
+
