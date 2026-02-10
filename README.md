@@ -1,4 +1,4 @@
-# CSCI2020U Assignment 01 - Spam Detector Application
+Spam Detector Application
 
 ## Project Information
 ### Overview
