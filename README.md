@@ -1,4 +1,4 @@
-Spam Detector Application
+# Spam Detector Application
 
 ## Project Information
 ### Overview
