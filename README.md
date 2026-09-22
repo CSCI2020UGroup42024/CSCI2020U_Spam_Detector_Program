@@ -33,3 +33,5 @@ The other utilized resources used to create the program is:
 - Jackson Databind: used for data-binding and object serialization/deserialization
 
 - Jackson Annotations: to control the serialization and deserialization of Java objects to and from JSON.
+
+**Copyright &copy; 2024. All Rights Reserved.**
